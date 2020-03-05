@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>CommandTask &#8212; Cutter 1.10.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/cutter.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Configuration" href="classConfiguration.html" />
+    <link rel="prev" title="Colors" href="classColors.html" />
+
+  </head><body>
+    
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="classConfiguration.html" title="Configuration"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="classColors.html" title="Colors"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Cutter 1.10.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../api.html" >API Reference</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../commonlist.html" accesskey="U">Common</a> &#187;</li> 
+      </ul>
+    </div>
+
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="commandtask">
+<h1>CommandTask<a class="headerlink" href="#commandtask" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="_CPPv411CommandTask">
+<span id="_CPPv311CommandTask"></span><span id="_CPPv211CommandTask"></span><span id="CommandTask"></span><span class="target" id="classCommandTask"></span><em class="property">class </em><code class="sig-name descname">CommandTask</code> : <em class="property">public</em> <a class="reference internal" href="classAsyncTask.html#_CPPv49AsyncTask" title="AsyncTask">AsyncTask</a><a class="headerlink" href="#_CPPv411CommandTask" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Types</p>
+<dl class="enum">
+<dt id="_CPPv4N11CommandTask9ColorModeE">
+<span id="_CPPv3N11CommandTask9ColorModeE"></span><span id="_CPPv2N11CommandTask9ColorModeE"></span><span class="target" id="classCommandTask_1a6fce292c18e10897e7ec1fef672cdcb2"></span><em class="property">enum </em><code class="sig-name descname">ColorMode</code><a class="headerlink" href="#_CPPv4N11CommandTask9ColorModeE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><em>Values:</em></p>
+<dl class="enumerator">
+<dt id="_CPPv4N11CommandTask8DISABLEDE">
+<span id="_CPPv3N11CommandTask8DISABLEDE"></span><span id="_CPPv2N11CommandTask8DISABLEDE"></span><span class="target" id="classCommandTask_1a6fce292c18e10897e7ec1fef672cdcb2abd92eacae6960b2211d8984d0425a542"></span><code class="sig-name descname">DISABLED</code> = COLOR_MODE_DISABLED<a class="headerlink" href="#_CPPv4N11CommandTask8DISABLEDE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="enumerator">
+<dt id="_CPPv4N11CommandTask7MODE_16E">
+<span id="_CPPv3N11CommandTask7MODE_16E"></span><span id="_CPPv2N11CommandTask7MODE_16E"></span><span class="target" id="classCommandTask_1a6fce292c18e10897e7ec1fef672cdcb2af956cc797b04d26783f7bccd8b352412"></span><code class="sig-name descname">MODE_16</code> = COLOR_MODE_16<a class="headerlink" href="#_CPPv4N11CommandTask7MODE_16E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="enumerator">
+<dt id="_CPPv4N11CommandTask8MODE_256E">
+<span id="_CPPv3N11CommandTask8MODE_256E"></span><span id="_CPPv2N11CommandTask8MODE_256E"></span><span class="target" id="classCommandTask_1a6fce292c18e10897e7ec1fef672cdcb2a3ad7c281ac234d3f4a13eaebb9c16c31"></span><code class="sig-name descname">MODE_256</code> = COLOR_MODE_256<a class="headerlink" href="#_CPPv4N11CommandTask8MODE_256E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="enumerator">
+<dt id="_CPPv4N11CommandTask8MODE_16ME">
+<span id="_CPPv3N11CommandTask8MODE_16ME"></span><span id="_CPPv2N11CommandTask8MODE_16ME"></span><span class="target" id="classCommandTask_1a6fce292c18e10897e7ec1fef672cdcb2a788f298f92153c215f74faddd9c3ef8a"></span><code class="sig-name descname">MODE_16M</code> = COLOR_MODE_16M<a class="headerlink" href="#_CPPv4N11CommandTask8MODE_16ME" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="function">
+<dt id="_CPPv4N11CommandTask11CommandTaskERK7QString9ColorModeb">
+<span id="_CPPv3N11CommandTask11CommandTaskERK7QString9ColorModeb"></span><span id="_CPPv2N11CommandTask11CommandTaskERK7QString9ColorModeb"></span><span id="CommandTask::CommandTask__QStringCR.ColorMode.b"></span><span class="target" id="classCommandTask_1aec58ea31966ae40b17694868cfc5841b"></span><code class="sig-name descname">CommandTask</code><span class="sig-paren">(</span><em class="property">const</em> QString &amp;<em>cmd</em>, <a class="reference internal" href="#_CPPv4N11CommandTask9ColorModeE" title="CommandTask::ColorMode">ColorMode</a> <em>colorMode</em> = <a class="reference internal" href="#_CPPv4N11CommandTask9ColorModeE" title="CommandTask::ColorMode">ColorMode</a>::DISABLED, bool <em>outFormatHtml</em> = false<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N11CommandTask11CommandTaskERK7QString9ColorModeb" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv4N11CommandTask8getTitleEv">
+<span id="_CPPv3N11CommandTask8getTitleEv"></span><span id="_CPPv2N11CommandTask8getTitleEv"></span><span id="CommandTask::getTitle"></span><span class="target" id="classCommandTask_1a57338f1f41c07321fe0c79ce9ea9b71e"></span>QString <code class="sig-name descname">getTitle</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N11CommandTask8getTitleEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Signals</p>
+<dl class="function">
+<dt id="_CPPv4N11CommandTask8finishedERK7QString">
+<span id="_CPPv3N11CommandTask8finishedERK7QString"></span><span id="_CPPv2N11CommandTask8finishedERK7QString"></span><span id="CommandTask::finished__QStringCR"></span><span class="target" id="classCommandTask_1a49e5e5d4c086dc16a29dc537e8ac323a"></span>void <code class="sig-name descname">finished</code><span class="sig-paren">(</span><em class="property">const</em> QString &amp;<em>result</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N11CommandTask8finishedERK7QString" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+  <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+    <div class="sphinxsidebarwrapper">
+        <p class="logo"><a href="https://cutter.re/">
+          <img class="logo" src="../../_static/cutter.ico" alt="Logo"/>
+        </a></p>
+      <a href="../../index.html">Cutter documentation</a>
+<h3><a href="../../index.html">Table of Contents</a></h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../shortcuts.html">Shortcuts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../building.html">Building</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../common-errors.html">Common errors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developers-docs.html">Developer documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../user-docs.html">User documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../plugins.html">Plugins</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../api.html">API Reference</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../commonlist.html">Common</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../corelist.html">Core</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dialogslist.html">Dialogs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../menuslist.html">Menus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pluginslist.html">Plugins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../srclist.html">Src</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../widgetslist.html">Widgets</a></li>
+</ul>
+</li>
+</ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, The Cutter Developers.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.3.
+    </div>
+    
+
+  </body>
+</html>
